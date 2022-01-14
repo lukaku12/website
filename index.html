@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>თავდაცვა</title>
+  </head>
+  <body>
+    <div id="responsiveMenu">
+      <div class="responsive-menu__top-buttons">
+        <button class="main-header__button main-header__active hi">
+          S დონე
+        </button>
+        <button class="main-header__button hi">R დონე</button>
+        <button id="goBack" class="hi">X</button>
+      </div>
+      <div class="responsive-menu__left-buttons">
+        <button class="left-panel-btn">პერსონალი</button>
+        <button class="left-panel-btn left-side__active">ლოჯისტიკა</button>
+        <button class="left-panel-btn">საერთო</button>
+      </div>
+    </div>
+    <div class="left-panel">
+      <h1 class="left-panel__name">რედინესის მოდული</h1>
+      <button class="left-panel-btn">პერსონალი</button>
+      <button class="left-panel-btn left-side__active">ლოჯისტიკა</button>
+      <button class="left-panel-btn">საერთო</button>
+    </div>
+    <div class="right-panel">
+      <div class="main-header">
+        <button id="responsiveButton">#</button>
+        <h1 class="main-header__text">ლოჯისტიკის მოდული</h1>
+        <div class="main-header__buttons">
+          <button class="main-header__button main-header__active">
+            S დონე
+          </button>
+          <button class="main-header__button">R დონე</button>
+        </div>
+      </div>
+      <div class="main-body">
+        <div class="main-body__top-part">
+          <div class="percentages">
+            <table>
+              <tr>
+                <td class="percentage">100%-90%</td>
+                <td class="tier-class">S1</td>
+              </tr>
+              <tr>
+                <td class="percentage">89%-70%</td>
+                <td class="tier-class">S2</td>
+              </tr>
+              <tr>
+                <td class="percentage">69%-60%</td>
+                <td class="tier-class">S3</td>
+              </tr>
+              <tr>
+                <td class="percentage">59%-0%</td>
+                <td class="tier-class">S4</td>
+              </tr>
+            </table>
+          </div>
+          <div class="filter">
+            <div class="text-filter">
+              <h3>||ფილტრი</h3>
+            </div>
+            <div class="filter-input">
+              <label for="">ძალები<br /><input type="text" /></label>
+              <label for="">ბრიგადა<br /><input type="text" /></label>
+              <label for="">ბატალიონი<br /><input type="text" /></label>
+              <button id="filterBtn">გაფილტვრა</button>
+            </div>
+          </div>
+        </div>
+        <div class="main-body__bottom-part">
+          <div class="current-for__a">
+            <div class="items-for__text">
+              <h1>მიმდინარე რეესტრი</h1>
+              <small
+                >საბრძოლო მზადყოფნის S დაკომპლექტების დონის მოდული A
+                კატეგორიისთვის</small
+              >
+            </div>
+            <div class="items">
+              <table>
+                <tr class="hr">
+                  <td>კატეგორია</td>
+                  <td>დასახელება</td>
+                  <td>ტაბელით</td>
+                  <td>არსებული</td>
+                  <td>%</td>
+                  <td>დონე</td>
+                </tr>
+                <tr class="hr">
+                  <td class="center">A</td>
+                  <td>ტყვიამფქვევი</td>
+                  <td class="center">18</td>
+                  <td class="center">18</td>
+                  <td class="center">100%</td>
+                  <td class="center">S1</td>
+                </tr>
+                <tr class="hr">
+                  <td class="center">A</td>
+                  <td>ხელის ტყვიამფქვევი</td>
+                  <td class="center">54</td>
+                  <td class="center">45</td>
+                  <td class="center">83%</td>
+                  <td class="center">S2</td>
+                </tr>
+                <tr class="hr">
+                  <td class="center">A</td>
+                  <td>ყუმბარმტყორცნი "რპგ-7"</td>
+                  <td class="center">18</td>
+                  <td class="center">10</td>
+                  <td class="center">56%</td>
+                  <td class="center">S3</td>
+                </tr>
+                <tr class="hr">
+                  <td class="center">A</td>
+                  <td>60 მმ-იანი ნაღმმტყორცნი</td>
+                  <td class="center">6</td>
+                  <td class="center">4</td>
+                  <td class="center">67%</td>
+                  <td class="center">S4</td>
+                </tr>
+                <tr class="hr">
+                  <td class="center">A</td>
+                  <td>ხელის ტყვიამფქვევი</td>
+                  <td class="center">54</td>
+                  <td class="center">45</td>
+                  <td class="center">83%</td>
+                  <td class="center">S2</td>
+                </tr>
+              </table>
+            </div>
+            <div class="page-changer">
+              <button class="pages"><</button>
+              <button class="pages activated">1</button>
+              <button class="pages">2</button>
+              <button class="pages">3</button>
+              <button class="pages">4</button>
+              <button class="pages">></button>
+            </div>
+          </div>
+          <div class="current-for__b">
+            <div class="items-for__text">
+              <h1>მიმდინარე რეესტრი</h1>
+              <small
+                >საბრძოლო მზადყოფნის S დაკომპლექტების დონის მოდული B
+                კატეგორიისთვის</small
+              >
+            </div>
+            <div class="items">
+              <table>
+                <tr class="hr">
+                  <td>კატეგორია</td>
+                  <td>დასახელება</td>
+                  <td>ტაბელით</td>
+                  <td>არსებული</td>
+                  <td>%</td>
+                  <td>დონე</td>
+                </tr>
+                <tr class="hr">
+                  <td class="center">B</td>
+                  <td>ტყვიამფქვევი</td>
+                  <td class="center">18</td>
+                  <td class="center">18</td>
+                  <td class="center">100%</td>
+                  <td class="center">S1</td>
+                </tr>
+                <tr class="hr">
+                  <td class="center">B</td>
+                  <td>ხელის ტყვიამფქვევი</td>
+                  <td class="center">54</td>
+                  <td class="center">45</td>
+                  <td class="center">83%</td>
+                  <td class="center">S2</td>
+                </tr>
+                <tr class="hr">
+                  <td class="center">B</td>
+                  <td>ყუმბარმტყორცნი "რპგ-7"</td>
+                  <td class="center">18</td>
+                  <td class="center">10</td>
+                  <td class="center">56%</td>
+                  <td class="center">S3</td>
+                </tr>
+                <tr class="hr">
+                  <td class="center">B</td>
+                  <td>60 მმ-იანი ნაღმმტყორცნი</td>
+                  <td class="center">6</td>
+                  <td class="center">4</td>
+                  <td class="center">67%</td>
+                  <td class="center">S4</td>
+                </tr>
+                <tr class="hr">
+                  <td class="center">B</td>
+                  <td>ხელის ტყვიამფქვევი</td>
+                  <td class="center">54</td>
+                  <td class="center">45</td>
+                  <td class="center">83%</td>
+                  <td class="center">S2</td>
+                </tr>
+              </table>
+            </div>
+            <div class="page-changer">
+              <button class="pages"><</button>
+              <button class="pages activated">1</button>
+              <button class="pages">2</button>
+              <button class="pages">3</button>
+              <button class="pages">4</button>
+              <button class="pages">></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+      integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
